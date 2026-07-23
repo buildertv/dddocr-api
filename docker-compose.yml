@@ -1,0 +1,12 @@
+services:
+
+  ddddocr:
+
+    build: .
+
+    container_name: ddddocr
+
+    restart: unless-stopped
+
+    ports:
+      - "8002:8000"
